@@ -33,12 +33,12 @@ namespace PentaStagiuModule01Week01_Homework
                         Console.WriteLine("Your guess was smaller than the number");
 
                     Console.WriteLine("Do you want to try again? (Y/N)");
-                    string TryAgain = Console.ReadLine();
-                    if (TryAgain.ToUpper() == "Y")
+                    string UserResponse = Console.ReadLine();
+                    if (UserResponse.ToUpper() == "Y")
                     {
                         continue;
                     }
-                    else if (TryAgain.ToUpper() == "N")
+                    else if (UserResponse.ToUpper() == "N")
                     {
                         break;
                     }
